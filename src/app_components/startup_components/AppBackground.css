@@ -1,0 +1,49 @@
+/*AppBackground.css*/
+.signup-background {
+    position: relative;
+    /* max-width: min(90vw, 100vw); */
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, #a6d89d 0%, #587253 100%);
+    overflow: hidden;
+  }
+  
+  /* Group Circles */
+  .circle-group {
+    position: absolute;
+  }
+  
+  /* Common Circle Styling */
+  .circle {
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #71bb64;
+    border-radius: 50%;
+  }
+  
+  /* Left Group Positioning */
+  .left {
+    left: 0;
+    top: 0;
+  }
+  
+  /* Right Group Positioning */
+  .right {
+    right: 0;
+    top: 0;
+  }
+  
+  /* Signup Box */
+  .signup-box {
+    position: absolute;
+    width: 445px;
+    height: 813px;
+    left: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    background: #71bb64;
+    border: 1px solid #000;
+    border-radius: 0px 35px 35px 0px;
+    visibility: hidden; /* Initially hidden */
+  }
+  
